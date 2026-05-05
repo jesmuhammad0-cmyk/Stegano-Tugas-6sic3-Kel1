@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <title>@yield('title', 'Stegano-6SIC3') — Laravel LSB Steganography</title>
+    <title>@yield('title', 'Stegano-6SIC2') — Laravel LSB Steganography</title>
 
     {{-- Tailwind CSS via CDN (ganti dengan Vite di produksi) --}}
     <script src="https://cdn.tailwindcss.com"></script>
@@ -48,7 +48,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                               d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"/>
                     </svg>
-                    Stegano-6SIC3
+                    Stegano-6SIC2
                 </a>
 
                 {{-- Nav links --}}
